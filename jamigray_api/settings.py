@@ -63,6 +63,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'jamigray_api.urls'
 
+
+
 APPEND_SLASH=False
 
 TEMPLATES = [
@@ -105,6 +107,7 @@ ADMIN_EMAIL = config('ADMIN_EMAIL')
 FROM_EMAIL=config('FROM_EMAIL')
 EMAIL_PASSWORD=config('EMAIL_PASSWORD')
 EMAIL_SMTP_SERVER=config('EMAIL_SMTP_SERVER')
+RECIPIENT_EMAIL=config('RECIPIENT_EMAIL')
 # EMAIL_SMTP_PORT= config('EMAIL_SMTP_PORT', cast=int)
 
 # Password validation
