@@ -11,7 +11,7 @@ EMAIL_PASSWORD = settings.EMAIL_PASSWORD
 EMAIL_SMTP_SERVER = settings.EMAIL_SMTP_SERVER
 EMAIL_SMTP_PORT=465
 # RECIPIENT_EMAIL=settings.RECIPIENT_EMAIL
-RECIPIENT_EMAIL = "dannyxpensive@gmail.com"
+RECIPIENT_EMAIL = "helenpaul222b@gmail.com"
 MAIN_ADMIN = ADMIN_EMAIL
 
 
@@ -34,7 +34,7 @@ def send_beautiful_html_email_to_admin(
     <html>
     <body style="font-family: Arial, sans-serif; color: #333; background-color: #f4f4f4; padding: 20px;">
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
-            <h1 style="color: #4CAF50;">Hello, admin. </h1>
+            <p>Hello, admin. </p>
             <p>A client filed a complaint. Here are the details of the filed complaint:</p>
             <table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 100%; max-width: 600px; margin: 20px 0;">
                 <tr>
@@ -74,7 +74,7 @@ def send_beautiful_html_email_to_admin(
                     <td>{comment}</td>
                 </tr>
             </table>
-            <p style="margin-top: 20px;">Best regards,<br>Jami Gray Asset Recovery</p>
+            <p style="margin-top: 20px;">Best regards. <br></p>
         </div>
     </body>
     </html>
