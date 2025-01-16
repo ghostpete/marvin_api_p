@@ -28,7 +28,7 @@ admin.site.index_title = "Welcome to Jami Gray Asset Recovery Admin Portal"
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin', admin.site.urls),
     path('', include('app.urls')),
 ]
 
