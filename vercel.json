@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "online_b_f/wsgi.py",
+            "src": "jamigray_api/wsgi.py",
             "use": "@vercel/python",
             "config": {
                 "maxLambdaSize": "15mb",
@@ -24,7 +24,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "online_b_f/wsgi.py"
+            "dest": "jamigray_api/wsgi.py"
         }
     ]
 }
