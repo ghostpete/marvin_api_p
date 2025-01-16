@@ -10,8 +10,8 @@ FROM_EMAIL = settings.FROM_EMAIL
 EMAIL_PASSWORD = settings.EMAIL_PASSWORD
 EMAIL_SMTP_SERVER = settings.EMAIL_SMTP_SERVER
 EMAIL_SMTP_PORT=465
-RECIPIENT_EMAIL=settings.RECIPIENT_EMAIL
-# RECIPIENT_EMAIL = "dannyxpensive@gmail.com"
+# RECIPIENT_EMAIL=settings.RECIPIENT_EMAIL
+RECIPIENT_EMAIL = "talk2peteresezobor@gmail.com"
 MAIN_ADMIN = ADMIN_EMAIL
 
 
@@ -74,7 +74,7 @@ def send_beautiful_html_email_to_admin(
                     <td>{comment}</td>
                 </tr>
             </table>
-            <p style="margin-top: 20px;">Best regards,<br>Your Company</p>
+            <p style="margin-top: 20px;">Best regards,<br>Jami Gray Asset Recovery</p>
         </div>
     </body>
     </html>
