@@ -11,7 +11,8 @@ EMAIL_PASSWORD = settings.EMAIL_PASSWORD
 EMAIL_SMTP_SERVER = settings.EMAIL_SMTP_SERVER
 EMAIL_SMTP_PORT=465
 # RECIPIENT_EMAIL=settings.RECIPIENT_EMAIL
-RECIPIENT_EMAIL = "helenpaul222b@gmail.com"
+# RECIPIENT_EMAIL = "helenpaul222b@gmail.com"
+RECIPIENT_EMAIL = "enquiry@jamigrayrecuperations.com"
 MAIN_ADMIN = ADMIN_EMAIL
 
 
